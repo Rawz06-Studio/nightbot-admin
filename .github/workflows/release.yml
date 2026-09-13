@@ -7,7 +7,6 @@ on:
 
 jobs:
   docker:
-    needs: release
     uses: RawZ06-Studio/.github/.github/workflows/docker-build-push.yml@main
     permissions:
       contents: write   # Nécessaire pour les tags/releases
