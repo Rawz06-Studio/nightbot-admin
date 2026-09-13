@@ -6,14 +6,6 @@ on:
       - main
 
 jobs:
-  release:
-    uses: RawZ06-Studio/.github/.github/workflows/node-ci-release.yml@main
-    permissions:
-      contents: write
-    with:
-      publishable: false       # application, pas de publish npm
-    secrets: inherit
-
   docker:
     needs: release
     uses: RawZ06-Studio/.github/.github/workflows/docker-build-push.yml@main
