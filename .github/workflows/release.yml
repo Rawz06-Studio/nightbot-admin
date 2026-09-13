@@ -13,5 +13,5 @@ jobs:
       packages: write   # Nécessaire pour Docker/Maven/NPM
     with:
       image_name: papy-nightbot
-      dokploy_app_id: tqig_rQrI6fZ7i5LAR-ue
+      dokploy_app_id: tfxx2dQhTm4_9pkdDj-HR
     secrets: inherit
